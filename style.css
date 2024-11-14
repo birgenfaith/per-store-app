@@ -1,0 +1,151 @@
+/* General body styling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpeg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+  }
+  
+  /* Header and footer styling */
+  header, footer {
+    background-color: rgba(76, 175, 80, 0.8); /* Transparent green */
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  footer {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  /* Pet Category Styling */
+  .pet-category {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pet-item {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .pet-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  /* Service Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Google Map Styling */
+  iframe {
+    max-width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Layout */
+  @media (min-width: 768px) {
+    section {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    .pet-item {
+      width: 30%;
+    }
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
